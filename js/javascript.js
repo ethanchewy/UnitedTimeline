@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-	// var $canvas = $('#word_cloud');
+	var $canvas = $('#word_cloud');
 
 	// Get top 10 tweets from each list
 
@@ -102,7 +102,7 @@ function generateWordCloud(){
 	    	var list = [];
 	    	for (var key in listA)
 	    	{
-	    		list.push([key, listA[key]]);
+	    		list.push([key, listA[key]*5]);
 	    	}
 	    	console.log(list);
 			console.log(WordCloud.isSupported);
@@ -125,7 +125,7 @@ function generateWordCloud(){
 	    	var list = [];
 	    	for (var key in listA)
 	    	{
-	    		list.push([key, listA[key]]);
+	    		list.push([key, listA[key]*5]);
 	    	}
 	    	console.log(list);
 			console.log(WordCloud.isSupported);
@@ -148,7 +148,7 @@ function generateWordCloud(){
 	    	var list = [];
 	    	for (var key in listA)
 	    	{
-	    		list.push([key, listA[key]]);
+	    		list.push([key, listA[key]*5]);
 	    	}
 	    	console.log(list);
 			console.log(WordCloud.isSupported);
