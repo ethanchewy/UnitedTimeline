@@ -1,22 +1,6 @@
 $( document ).ready(function() {
 	var $canvas = $('#word_cloud');
 
-	// Get top 10 tweets from each list
-
-	// var list = (function () {
-	//   var string = 'Grumpy wizards make toxic brew for the evil Queen and Jack';
-
-	//   var list = [];
-	//   string.split(' ').forEach(function(word) {
-	//     list.push([word, word.length * 5]);
-	//   });
-
-	//   return list;
-	// })();
-	// console.log(WordCloud.isSupported);
-	// WordCloud.minFontSize = "15px";
-	// WordCloud($canvas[0], { list: list });
-
 	//Temp solution since Twitter uses async for embeded links.
 	generateWordCloud();
 });
